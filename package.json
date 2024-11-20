@@ -1,0 +1,33 @@
+{
+  "name": "swiggyapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidamanurikishore217/SwiggyApplication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nidamanurikishore217/SwiggyApplication/issues"
+  },
+  "homepage": "https://github.com/nidamanurikishore217/SwiggyApplication#readme",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@parcel/source-map": "^2.1.1",
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  }
+}
