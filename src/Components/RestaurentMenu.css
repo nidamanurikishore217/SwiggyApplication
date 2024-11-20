@@ -1,0 +1,104 @@
+/* RestaurentMenu.css */
+.restaurent-menu {
+    padding: 20px;
+    background-color: #f8f8f8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.restaurent-details {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.restaurent-details h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.restaurent-details p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-info {
+    flex: 1;
+}
+
+.menu-info h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+}
+
+.menu-info .price {
+    color: #333;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.menu-info .rating {
+    color: #4caf50;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.menu-info .description {
+    color: #777;
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.menu-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
