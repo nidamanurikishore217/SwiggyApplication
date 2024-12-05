@@ -1,9 +1,9 @@
 import axios from "axios";
 const instance = axios.create({
-    baseURL:process.env.REACT_COMMON_URL,  // Use the environment variable here
+    baseURL: process.env.REACT_COMMON_URL,  // Use the environment variable here
     timeout: 5000,
     //  headers: { 'X-Custom-Header': 'foobar' }
-     headers:{}
+    headers: {}
 });
 
 // Request interceptor
